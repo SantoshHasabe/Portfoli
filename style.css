@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    /*Navbar*/
+    .navbar{
+        justify-content: start;
+        justify-content:space-around;
+        display: flex;
+        flex-direction: row;
+       background-color: yellowgreen;
+       padding: 50px;
+       position: ;
+    }
+    .navbar a:hover{
+        background-color: rebeccapurple;
+        color: white;
+        box-shadow: 0 0 10px white;
+        font-size: large;
+    }
+    #home{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 500px;
+        justify-content:center;
+        align-items: center;
+        color:white; 
+        }
+     .img{
+       max-width: 300px;
+       aspect-ratio: auto;
+     }  
+     .heading{
+         margin-left: 50px;
+     }
+     .btn{margin-left: 50px;}
+     
+     #about{
+        display: flex;
+        flex-direction: column;  
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        
+     }
+     .a{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap:wrap;
+        box-sizing: border-box;
+     }
+     #pic{
+         padding: 10px;
+         align-content: right;
+     }
+     #intro{
+        padding: 10px;
+        align-items:left;
+     }
+     #portfolio{
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.9);
+        color: white;
+        align-items: center;
+        padding: 20px;
+    }
+    .gallery{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        box-sizing: border-box;
+    
+    }
+    .gallery img{
+        width: 360px;
+        height: 240px;
+        margin: 10px;
+    }
+    #services{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+    .row{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap:wrap;
+        box-sizing: border-box;
+    }
+    .box{
+        display:flex;
+        flex-direction: column;
+        width:350px;
+        height:450px;
+        border:1px solid black;
+        margin: 10px;
+        align-items: center;
+        text-align: justify;
+        padding:10px;
+        border-radius:15px;
+        background: linear-gradient(to top, rgb(255,45,45) 50%,white,50%);
+        background-size:100% 200%;
+        transition:all .8s;
+    }
+    .box:hover{
+        background-position: left bottom;
+        color:red;
+        border:none;
+        box-shadow: 0 0 20px rgb(255,45,45);
+    }
+    .box img{
+        border: 1px;
+        width: 120px;
+        height:120px;
+        background-color:white;
+        padding: 10px;
+    }
+    .img1{
+        border: 1px;
+        box-sizing: border-box;
+    }
+    #contact{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.9);
+        color: white;   
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .input{
+        padding: 10px;
+        margin:15px;
+        width:auto;
+        border:none;
+        outline:none;
+    }
+    #msg{
+        width: auto;
+        padding: 10px;
+        margin: 10px;
+        border:none;
+        outline:none;
+    }
+    #send{
+        padding:10px;
+        width:auto;
+        margin:40px;
+        border:none;
+        outline: none;
+    }
+    #send:hover{
+        background-color: blueviolet;
+        cursor: pointer;
+    }

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Santosh Hasabe,Pune">
+    <meta name="Description" content="Sample Portfolio Site Using HTML and CSS.">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+    html{
+        font-family: "IBM Plex Serif",serif;
+    }
+</style>
+</head>
+
+<body>
+    <header>
+    <nav class="navbar">
+            <a href="#home">Home  </a>
+            <a href="#about"> About </a>
+            <a href="#portfolio"> Portfolio </a>
+            <a href="#services"> Services </a>
+            <a href="#contact"> Contact </a>
+    </nav>
+    </header>
+    <!-- our artical section start -->
+    <section id="home">
+        <div class="img">
+            <img  src="Photo15.jpg" width="120" height="150" alt="Profile Image">
+        </div>
+        <div class="main">
+            <h1 class="heading">I AM <br><b>Santosh Hasabe</b></h1>
+            <button class="btn">
+                Hire me
+            </button>
+        </div>
+    </section>
+    <hr>
+    <section id="about">
+        <h2 class="headings">ABOUT ME</h2>
+        <div class="a">
+     <div id="pic">
+        <img src="DSC_6323.JPG" width="200" height="300" alt="">
+    </div>
+        <div id="intro"> <br><br><br><br>
+            <h3>Santosh Hasabe</h3>
+            <p>I am Santosh Hasabe. I have compeleted my graduation from Mechanical Engineering.<br>
+            I compeleted the Full Stack Web Developer Course from Newton School.<br>
+            I like to work as a Full Stack Web Developer.</p>
+    </div>
+</div>
+</section>
+<section id="portfolio">
+    <h1 class="headings">PORTFOLIO</h1>
+    <div class="gallery">
+        <img src="img-1.jpg" alt="">
+        <img src="img-2.jpg" alt="">
+        <img src="img-3.jpg" alt="">
+        <img src="img-4.jpg" alt="">
+        <img src="img-5.jpg" alt="">
+        <img src="img-6.jpg" alt="">
+    </div>
+</section>
+<section id="services">
+    <h1 class="headings">SERVICES</h1>
+    <div class="row">
+        <div class="box">
+            <img class="img1"src="wd.jpg" alt= "">
+            <br>
+            <h1 class="heading">Web Design</h1>
+            <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; user interface design; authoring, including standardised code and proprietary software; user experience design; and search engine optimization.</p>
+        </div>
+        <div class="box">
+            <img class="img1" src="ui  an ux.png"alt=""><br>
+            <h1 class="heading">UX/UI Design</h1>
+            <p>User interface design or user interface engineering is the design of user interfaces for machines and software, such as computers, home appliances, mobile devices, and other electronic devices, with the focus on maximizing usability and the user experience.</p>
+        </div>
+    <div class="box">
+        <img class="img1" src="dm.jpg"alt="" ><br>
+        <h1 class="heading">Digital Marketing</h1>
+        <p>Digital marketing is the component of marketing that uses the Internet and online based digital technologies such as desktop computers, mobile phones and other digital media and platforms to promote products and services</p>
+    </div>
+    </div>
+</section>
+<section id="contact">
+    <h1 class="headings">CONTACT</h1>
+    <form action="https://submit-form.com/RYjU92wP" class="form" >
+        <input type="text" name="name" minlength="3" class="input"placeholder="Enter Your Name"  autocomplete="off" required>
+        <input type="text" name="email"class="input"placeholder="Enter Your Email" autocomplete="off" required>
+        <textarea name="msg"id="msg"cols="25" rows="8"placeholder="Enter Your Msg"  autocomplete="off" required ></textarea>
+        <input type="submit" value="SEND"id="send">
+    </form>
+</section>
+</body>
+</html>
